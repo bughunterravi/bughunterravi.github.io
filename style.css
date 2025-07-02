@@ -44,6 +44,16 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.8rem;
 }
 
+h4 {
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    border-bottom: 1px solid var(--accent-color);
+    padding-bottom: 0.4rem;
+}
+
 h1 {
     font-family: var(--font-secondary);
     font-weight: 700;
@@ -460,7 +470,7 @@ main {
     padding-left: 1.5rem;
 }
 .certifications ul li::before {
-    content: "\f0a9"; /* Font Awesome hand-point-right */
+    content: "\f058"; /* Font Awesome hand-point-right */
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     position: absolute;
